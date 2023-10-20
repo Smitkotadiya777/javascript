@@ -1,0 +1,29 @@
+<!-- (compulsory user input) -->
+<!-- Ex. Base Salary: 100 RS, HRA=10%, DA=5%, TA=8%. Ans = 123 RS.(compulsory user input) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gross Salary</title>
+</head>
+<body>
+    
+</body>
+
+
+
+<script>
+    let Salary = parseInt(prompt("Enter Your Salary: "));
+
+    let GrossSalary = (Salary*10/100) + (Salary*5/100) + (Salary*8/100);
+    
+    document.write("Base Salary = "+ Salary + "<br>" + "HRA = 10% <br> DA = 5% <br> TA = 8% <br>");
+    document.write("Gross Salary = ", GrossSalary+Salary);
+
+    
+
+
+</script>
+</html>
